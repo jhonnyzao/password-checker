@@ -31,7 +31,7 @@ After creating your _.env_ file, go to the root of the project (where _docker-co
 docker-compose up
 ```
 
-After all the images are downloaded and the containers are up, open another terminal tab and run the command to access your application container prompt:
+After all the images are downloaded and the containers are up, open another terminal tab and run the command to access your application container prompt (make sure the composer container has finished installing all the dependencies):
 
 ```
 docker-compose run app ash
