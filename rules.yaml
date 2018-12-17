@@ -1,0 +1,12 @@
+---
+# To add new rules, simply create another object with both rule and errMessage attributes
+rules:
+  - pattern: '^.{6,}$'
+    errMessage: 'Password must be at least 6 characters.'
+  - pattern: '\d'
+    errMessage: 'Password must have at least one digit.'
+  - pattern: '^((.)\2?(?!\2))+$'
+    errMessage: 'Password must not contain more than 2 repeated characters in a row.'
+  - pattern: '.*[A-Z].*|.*[^a-zA-Z0-9].*'
+    errMessage: 'Password must have at least one uppercase character or alternatively one special character'
+...

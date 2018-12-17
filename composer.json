@@ -1,0 +1,22 @@
+{
+	"config": {
+		"platform": {
+			"php": "7.2"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Erasys\\": "src/",
+			"Config\\": "config/"
+		}
+	},
+	"require": {
+		"symfony/yaml": "4.2.*",
+		"vlucas/phpdotenv": "2.5.*"
+	},
+	"require-dev": {
+	    "phpunit/phpunit": "^7",
+	    "symfony/yaml": "4.2.*",
+	    "vlucas/phpdotenv": "2.5.*"
+	}
+}
