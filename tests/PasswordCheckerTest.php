@@ -26,7 +26,7 @@ final class PasswordCheckerTest extends TestCase
 
     public function testInvalidPasswords(): void
     {
-        $checker = $this-> createChecker();
+        $checker = $this->createChecker();
 
         $invalidPasswords = [
             'aaa',
