@@ -10,6 +10,7 @@ final class PasswordCheckerTest extends TestCase
     public function testValidPasswords(): void
     {
         $checker = $this-> createChecker();
+        $checker2 = $this-> createChecker();
 
         $validPasswords = [
             'ahadAad4',
